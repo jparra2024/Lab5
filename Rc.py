@@ -20,7 +20,7 @@ y_fit = exp_func(t_fit, A, B)
 
 # Modelo teórico con tau conocido
 K = 27.7       # Voltaje inicial
-tau = 5657     # Constante de tiempo (calculada por ti)
+tau = 5657     # Constante de tiempo (calculada)
 t_teo = np.linspace(0, 15000, 1000)
 V_teo = K * np.exp(-t_teo / tau)
 
